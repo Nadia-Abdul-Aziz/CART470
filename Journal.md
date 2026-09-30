@@ -38,25 +38,29 @@ However, many of our assumptions and potential directions remain preliminary unt
 
 # Weekly Project Reflection
 
-## Exploring Second Life
+## The Meeting
 
-The majority of this week consisted of laying the groundwork for the project prior to its official start.
+During class, we had a meeting with Nancy and Arijit only as Skawenatti could not make it. The meeting lasted around an hour as we explored Second Life once again as Nancy went over her primary concerns. I have detailed the majority of these concerns in the living learning contract under the "knowledge scope" tag. They have a rather broad view of the project and are not dead set on any elements, all they know is Second Life has too many limitations and is dated. They are not married to any particular aesthetic or building either, so we have a great degree of creative freedom not only in visuals but also in mechanics to address issues like text readability. The final goal is not necessarily to have a publishable gallery, but to have a usable prototype the staff can build upon. Non-negotiables are a viable blender-engine pipeline, a robust sound solution, and clean modular capabilities to move artworks around. Accessibility is of utmost concern, notably in UI/UX, VR availability, and distribution.  
 
-The first thing we did as a group was visit the Second Life gallery together. We understand that Second Life is an integral part of Skawennati’s work, although she has directly expressed her desire for the AbTeC Gallery to exist as a standalone entity. As we explored the platform, we identified several shortcomings, some of which may be intentional, and took notes on our observations as we went.
+## Work
 
-## Discussing Our Roles
+The consensus that we came to is to firstly decide the engine, they would like a prototype in all engines, and we will be splitting the load based on our skillset as such:
 
-We also had an open discussion as a group about our individual skills and what each of us would be willing to contribute to the project. Despite having worked together in the past, this gave us an opportunity to better understand one another’s strengths and interests in the context of this project.
+Jeremy & Bea: Godot
 
-Personally, I noted that I would be willing to contribute to anything related to 3D integration, as well as potentially MetaSounds of Fmod integration alongside Jeremy if opportunities for sound work arise.
+Alex & Ryan: Unity
 
-## Cultural Considerations
+Nadia: Unreal
 
-Jeremy & Bea
+Nancy's requirements were pretty low; simply have a navigable environment with the gallery building and Skawenatti's Tree of Life. It did not need to have any interactivity at all, but we proposed to have the text interactivity done and potentially some other interactions of our choosing. 
+
+We will be making web builds and Windows builds where possible, and despite disagreeing with the notion of creating a less accessible platform, we will make a VR build. Whoever has time for it, will get to it. 
+
+This engine exploration is to be able to speak on the speed and ease of use of these platforms, we have all agreed Unreal will look good and realistic the fastest, Godot is suitable for custom toolsets and is open source, and Unity is a good all-rounder. 
 
 ## 3D files & Privacy Concerns
-The 3D models we recieved are intellectual property of abtec and proposed some privacy concerns. We recieved the building as well as the tree of life from Arijit via email to all team members.
-We expressed following the meeting that we had a public repository for this class, and needed to clarify if this was a pprivacy concern. Nancy stated that ideally, as we a re dealing with copyrighted assets and files, they would be more comfotable if the files were not easily accessible through the github pages. We set up a private repositiory in lieu of public, and as such, while Sabine will be a co-owner of the repo, it will not be accessible to anyone else.
+The 3D models we recieved are intellectual property of AbTeC and proposed some privacy concerns. We recieved the models from Arijit via email to all team members.
+We expressed following the meeting that we had a public repository for this class, and needed to clarify if this was a concern. Nancy stated that ideally, as we are dealing with copyrighted assets and files, they would be more comfortable if the files were not easily accessible through the Github pages. We have set up a private repository in lieu of public, and as such, while Sabine will be a co-owner of the repo, it will not be accessible to anyone else.
 
 ## Work done
 
