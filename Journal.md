@@ -36,7 +36,7 @@ Overall, this week was heavily focused on reflection, research, and preparation.
 
 However, many of our assumptions and potential directions remain preliminary until we are able to speak directly with the AbTeC team and better understand their needs and expectations.
 
-# Weekly Project Reflection
+# September 29th Project Reflection
 
 ## The Meeting
 
@@ -70,7 +70,7 @@ I think we are all procrastinating a tiny bit, and while I can't speak for the o
 
 The Living Learning Contract was written majoritarily by myself and Jeremy, with the rest of the team filling in their respective sections. The contract first describes all the information we gathered from the meeting as factual information we must all abide by, to ensure we are all on the same page. While the project is broad and we cannot outline week-to-week responsibilities, we did outline what we need to do for the meeting on the 8th, all subsequent task management will be done via the Kanban Fizzy page. See Below:
 
-
+https://github.com/Nadia-Abdul-Aziz/CART470/blob/main/LivingLearningContract_ABTEC.pdf
 
 We all ensured to remain humble about our starting knowledge and skills as well as being flexible on the roles we may end up taking on. We designated a section where all members can directly state this information, along with their hopes for the project.
 
