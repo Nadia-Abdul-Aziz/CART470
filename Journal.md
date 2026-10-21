@@ -79,3 +79,5 @@ We all looked over the document together via our group chat before submitting.
 ## Weekly Reflection
 
 Overall, this week marked the start of the work to be done, with absolute clarity on the project, our tasks, access to all the necessary materials, and impending expectations from the AbTeC team. 
+# Weekly Reflection - Oct 7
+# Weekly Reflection - Oct 21
