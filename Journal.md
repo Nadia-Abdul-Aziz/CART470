@@ -160,7 +160,9 @@ The Unreal prototype was completed the day of the presentation, horrible decisio
 
 ## Presentation
 
-We presented to the AbTeC team on the 
+We presented to the AbTeC team on the Thursday of reading week. We began by walking them through the modular blender kit, as I did a live demo of its capabilities. They were open to hearing our concerns about the original blender file, and said they would talk to their 3D modelers to see what they think. Skawenatti had a bit of trouble understanding the purpose since it looked exactly the same as the original of it at first, then I explained that it functioned much better in-engine, could be texture painted or have PBRs applied to it, did not present any geometry issues, and gave way to a lot of freedom as I demonstrated by creating an abstract structure on the fly in demonstration. 
+
+The Unreal engine did not build in time, the build itself failed, but it was not a big deal as I could ultimately run it in the editor. Nancy was online this week recovering from an injury, so we had sone 
 
 ## Godot + UE5
 
@@ -170,6 +172,18 @@ The final consensuses on builds became Godot + UE5, they explained wanting two t
    
 4. A high end gallery they can show to special audiences in VR
 
-The Godot build was chosen due to its flexibility in toolmaking and how lightweight it can be. Unity was immediately disqualified due to its technical issues. 
+The Godot build was chosen due to its flexibility in toolmaking and how lightweight it can be for the web option. Unity was immediately disqualified due to its technical issues for both builds. The VR build remains heavily inspired by Elektra and they aim for hyperrealism and high definition visuals, thus Unreal Engine was chosen. 
+
+The assignments were therefore reshuffled to the following:
+
+Godot - Jeremy, Bea, Ryan
+
+Unreal - Me, Alex
 
 ## Going Forward
+
+I will not be present for the meeting as I am feeling quite terrible from crunching for exhibitions this week, so I will not be at the meeting to bear witness to Sabine's opinion on our findings and work. I am happy with what I presented to the AbTeC team and felt I gave them enough information to make an informed choice. Although, I am concerned about the Unreal build on my end, as I was worried about how I would manage a clean build using only Blueprints that will be deprecated in the following UE6 launch in 2027. If their goal was to future proof the project, I felt using Unreal when such a big change is coming up would undermine their goals but ultimately, they were informed and made their choice, I suppose they would leave the gallery as is and have a staff convert all blueprints into C++ when the time comes. 
+
+On my end, I was tasked with cleaning up the build, creating UI, making robust mechanics, and overall building everything a gallery requires to operate, essentially a EVM clone in VR. I have a lot of work to do. The difference between EVM and this is really the absence of the multiplayer aspect, so this will be a fully sandboxed experience they can run in their blackbox.
+
+I spoke to the EVM dev again, and he was worried it might be too similar so I need to inform Ida and Alain that this is happening. I have not emailed them yet, and was waiting for confirmation from the overall team, and perhaps for all our other work to calm down. 
