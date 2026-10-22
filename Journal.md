@@ -83,9 +83,32 @@ Overall, this week marked the start of the work to be done, with absolute clarit
 
 ## Blender
 
+
 ## UE5
 
+Due to my time spent on the Blender file, my UE by this point was crude. I opened up the first person template, and deleted everything I did not need, so I possessed the following:
+
+- Walking, sprinting, jumping
+  
+- Hand animations
+  
+- Sky sphere
+  
+- Landscape/floor
+
+That said, all the basic navigation was essentially in-built for me and I did not need to do any work past get rid of extras and modify these existing parameters.
+
+For the class check-in, I prepared a basic audio controller, it is nothing special but it shows how easy it is to implement audio in a robust fashion to sync with an animation. Walking sounds were triggered through a metasounds blueprint with exposure to all other project blueprints. In the animation sequencer, I was able to insert audio tags to trigger the randomized (for realism) walking sounds.
+
+I also began preparing a proposed solution for text viewing 
+
 ## Unity Troubles
+
+I am not officially on the Unity project, but I am familiar with the platform and available as an extra hand as needed. When Alex attempted to pull the file sent over from Ryan, he was met with a multiutude of compiler errors, causing the project to refuse to open with the exception of in safe mode. Everything was fine on Ryan's end when the file was sent, so there was a lot of confusion and frustration. 
+
+I was tasked with figuring out the solution after Alex managed to pull from github itself (which presented its own issues). The cause of the issue remains undefined, but the errors originated from poorly compiled packages upon import. That said, the fix was to delete the compile data and cache from the C files, forcing unity to reinstall and compile all packages to run the program. In doing so, the file exploded in size and I could no longer upload anything, even with a gitignore. I fought with the terminal for a long time to set up github lfs.
+
+While I ended up being able to upload the repaired file, it was unpullable, causing even more frustration. Ryan narrowed the cause down to something to do with the HD rendering pipeline not being properly supported by the gitignore. A new file was created, and the Unity team dealt with it from there. 
 
 ## What is left + expectations for next week
 
