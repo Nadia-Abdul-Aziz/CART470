@@ -81,6 +81,8 @@ We all looked over the document together via our group chat before submitting.
 Overall, this week marked the start of the work to be done, with absolute clarity on the project, our tasks, access to all the necessary materials, and impending expectations from the AbTeC team. 
 # Weekly Reflection - Oct 7
 
+This would have been the heaviest week of the month as we believed our meeting with Skawenatti would have been on Thursday, but due to its postponement, a large chunk of the work was done, but a lot was still left to do. 
+
 ## Blender
 
 I opened the Blender file simply out of curiosity, as multiple members of the team mentioned missing meshes, overlapping faces and general malaise when importing assets. I was not expecting to rebuild the structure, I was expecting to need to remedy some quick fixes to optimize the models for game engines. What I discovered, was topology that was not game-ready and non-modular. The blend file received from Nancy and Arijit, presented the following:
@@ -154,8 +156,20 @@ This week marks the completion of the Unreal Engine prototype as we presented it
 
 ## Unreal Engine
 
+The Unreal prototype was completed the day of the presentation, horrible decision. 
+
 ## Presentation
 
+We presented to the AbTeC team on the 
+
 ## Godot + UE5
+
+The final consensuses on builds became Godot + UE5, they explained wanting two things:
+
+2. General accessibility with a windows & mac web option
+   
+4. A high end gallery they can show to special audiences in VR
+
+The Godot build was chosen due to its flexibility in toolmaking and how lightweight it can be. Unity was immediately disqualified due to its technical issues. 
 
 ## Going Forward
