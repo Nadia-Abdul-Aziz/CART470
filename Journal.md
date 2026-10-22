@@ -156,7 +156,12 @@ This week marks the completion of the Unreal Engine prototype as we presented it
 
 ## Unreal Engine
 
-The Unreal prototype was completed the day of the presentation, horrible decision. 
+The Unreal prototype was completed the day of the presentation, horrible decision. The list of features completed are as follows:
+
+- Tree of Life with glowing flowers (As per the work's guidelines)
+- Podium and backdrop for the tree
+- Unreal native glossy material and Unreal native glass 
+- 
 
 ## Presentation
 
