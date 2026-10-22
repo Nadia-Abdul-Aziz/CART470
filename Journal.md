@@ -162,7 +162,9 @@ The Unreal prototype was completed the day of the presentation, horrible decisio
 
 We presented to the AbTeC team on the Thursday of reading week. We began by walking them through the modular blender kit, as I did a live demo of its capabilities. They were open to hearing our concerns about the original blender file, and said they would talk to their 3D modelers to see what they think. Skawenatti had a bit of trouble understanding the purpose since it looked exactly the same as the original of it at first, then I explained that it functioned much better in-engine, could be texture painted or have PBRs applied to it, did not present any geometry issues, and gave way to a lot of freedom as I demonstrated by creating an abstract structure on the fly in demonstration. 
 
-The Unreal engine did not build in time, the build itself failed, but it was not a big deal as I could ultimately run it in the editor. Nancy was online this week recovering from an injury, so we had sone 
+The Unreal engine did not build in time, the build itself failed, but it was not a big deal as I could ultimately run it in the editor. Nancy was online this week recovering from an injury, so we had some issues starting up the zoom for them to view the gallery. While they were relatively neutral on the build itself, they did praise the platform for its quick graphics, and how it can become realistic quickly, as I mentioned I built the prototype in only a few hours. I walked them through the issues UE presented, like the mesh slicing, large file sizes, etc, and they commented very little. 
+
+From this meeting, I learned that artists can be very stone faced when evaluating proposals, with very little body language and comments. It is so difficult to know if they are happy or unhappy, so I can only assume, I now understand this is common in professional environments, so confidence and humility is key. 
 
 ## Godot + UE5
 
