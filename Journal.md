@@ -83,6 +83,30 @@ Overall, this week marked the start of the work to be done, with absolute clarit
 
 ## Blender
 
+I opened the Blender file simply out of curiosity, as multiple members of the team mentioned missing meshes, overlapping faces and general malaise when importing assets. I was not expecting to rebuild the structure, I was expecting to need to remedy some quick fixes to optimize the models for game engines. What I discovered, was topology that was not game-ready and non-modular. The blend file received from Nancy and Arijit, presented the following:
+
+- Triangulated faces that cut into each other
+- Layered vertices (Faces were duplicated upon themselves)
+- Unnecessary and unorganized subdivisions
+- Flipped normals
+- Meshes with no thickness (planes instead of geometry)
+- no discernable UVs 
+
+The team claimed that the files we were being sent were modularized and in progress of being modernized. That said, despite that not holding true, we understand that Second Life does not give headaches about 3D models, and pretty much anything goes, so their perspective on the files was rather shallow, but that is what we are here for. 
+
+Thus, I worked on creating a fully modular building kit. 
+
+Each floor was rebuilt with proper quad topology and laid out at the Blender origin for easy manipulation. Each floor had two versions, one plain and one with raised sides for aesthetics. Some pieces were also given holes to accommodate for the tree or other artworks. 
+
+The spheres were rebuilt with the proper solidification and normals.
+
+Instead of recreating the walls, I opted for a tileset system.
+
+That said, the user can create a curve as they desire and array the tiles along that curve, this allows for endless possibilities and design without needing to manually extrude the wall. The design flow of the kit consists of the builder choosing their floor arrangements, laying them as they wish at origin, choose their desired wall design, and creating the walls along their structure, or anywhere they please. 
+
+This is a huge improvement as it is a robust solution to their modularity concerns that allows them to experiment with design, space and aesthetics, and generates game-ready assets with clean UVs for texturing and automatic in-engine optimization
+
+I spent a few hours recreating the second life buildings using the kit, and the team response was very positive when used in engine. I also experimented with alternative designs using the flexible wall making capabilities, such as an installation arrangement I could present to show the possibilities of the kit.
 
 ## UE5
 
@@ -100,7 +124,17 @@ That said, all the basic navigation was essentially in-built for me and I did no
 
 For the class check-in, I prepared a basic audio controller, it is nothing special but it shows how easy it is to implement audio in a robust fashion to sync with an animation. Walking sounds were triggered through a metasounds blueprint with exposure to all other project blueprints. In the animation sequencer, I was able to insert audio tags to trigger the randomized (for realism) walking sounds.
 
-I also began preparing a proposed solution for text viewing 
+I also began preparing a proposed solution for text viewing, as bio readability was a huge issue in Second Life. I proposed a podium with a proximity sensor that would pop up an interact widget upon approaching it. The interact prompt would then be used by pressing "I" to trigger the full bio text widget while blurring the background behind the text.
+
+The last thing I had comp;leted by this point was the UE5 foliage scatter system. I placed various types of foliage on the terrain for several reasons
+
+1. To emulate the natural outdoor environment of Second Life
+   
+3. To have a hardware stressor for the demo to monitor FPS and tech accessibility of the platform
+
+The foliage models I selected all had in-built material modifiers that caused them to move in the wind automatically, which is an extra computation task for UE5 to render, thus becoming a valuable test.
+
+The UE5 needed to be finished by the time we met with AbTeC and this was nowhere near finished, thus, lots of work still needed to be done.
 
 ## Unity Troubles
 
@@ -111,6 +145,8 @@ I was tasked with figuring out the solution after Alex managed to pull from gith
 While I ended up being able to upload the repaired file, it was unpullable, causing even more frustration. Ryan narrowed the cause down to something to do with the HD rendering pipeline not being properly supported by the gitignore. A new file was created, and the Unity team dealt with it from there. 
 
 ## What is left + expectations for next week
+
+Most other builds were nearing completion, with the Godot team being the most advanced. Hopes were high and we were confident in the work we had done thus far. I was behind on the UE, but I was clonfident I would be able to catch up adequately to have a build for the meeting with Skawenatti and AbTeC
 
 # Weekly Reflection - Oct 21
 
