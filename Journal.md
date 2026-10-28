@@ -199,7 +199,7 @@ I spoke to the EVM dev again, and he was worried it might be too similar so I ne
 
 I have no idea what to write because...we did a whole lot of nothing this week.
 
-I am meeting with Bea at 11 today to film some unreal and Blender documentation, so if this journal magically updates past the deadline...yup
+I am meeting with Bea at 11 today to film some unreal and Blender documentation, so if this journal magically updates past the deadline...yup. I wasn't there for the discussions about this, but I do agree that files are worth nearly nothing if no documentation is provided.
 
 I am not sure what to reflect on either, we were relatively thorough last week when Alex and I were filled in by the team, I am not sure how I feel regarding the lack of a midterm, because we are all slacking off but oh well. 
 
