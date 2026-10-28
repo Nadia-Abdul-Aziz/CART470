@@ -194,3 +194,6 @@ I will not be present for the meeting as I am feeling quite terrible from crunch
 On my end, I was tasked with cleaning up the build, creating UI, making robust mechanics, and overall building everything a gallery requires to operate, essentially a EVM clone in VR. I have a lot of work to do. The difference between EVM and this is really the absence of the multiplayer aspect, so this will be a fully sandboxed experience they can run in their blackbox.
 
 I spoke to the EVM dev again, and he was worried it might be too similar so I need to inform Ida and Alain that this is happening. I have not emailed them yet, and was waiting for confirmation from the overall team, and perhaps for all our other work to calm down. 
+
+# Weekly Reflection - Oct 28
+
