@@ -204,3 +204,5 @@ I am meeting with Bea at 11 today to film some unreal and Blender documentation,
 I am not sure what to reflect on either, we were relatively thorough last week when Alex and I were filled in by the team, I am not sure how I feel regarding the lack of a midterm, because we are all slacking off but oh well. 
 
 Some weeks are slower, and that's okay, I think after the first milestone, some breathing room is needed to then come back to the project strong, so yeah, I think we're taking a pause. 
+
+# Weekly Reflection - Oct 28
