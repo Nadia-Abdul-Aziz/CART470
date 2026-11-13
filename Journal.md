@@ -205,4 +205,30 @@ I am not sure what to reflect on either, we were relatively thorough last week w
 
 Some weeks are slower, and that's okay, I think after the first milestone, some breathing room is needed to then come back to the project strong, so yeah, I think we're taking a pause. 
 
-# Weekly Reflection - Oct 28
+# Weekly Reflection - Nov 11
+
+Welp...it's been A GOOD TWO WEEKS, HELLO!!
+
+I was in the hospital the week before so hehe...I did not do anything (Much) because looking at a screen hurt, so safe to say when I was cleared I got to business.
+
+## The Original Revamp
+
+The original UE file was...inexplicably lost (I cleaned out my drive and it went bye bye) but it's okay because it needed to be scrapped in any case as it was a very crude 1st person prototype, very much not in the right vein. That said, Alex and I came up with a plan on how to move forward as working on Unreal posed one major issue: FILE SHARING. Unreal was never meant to go on github, sure we can use LFS, but it's definitely a hassle. Instead of exploring and trying other options right away, Alex has remote access to my PC for other purposes, so this was the best solution, for him to simply access the file on my local computer as he needs to work on it. 
+
+I was still locked up in the dungeon by this point, but I began the new file, I opened it with the default UE5 VR template, but on a blank scene so I could strip all the stuff I didn't need. I started working on a procedural terrain and landscape using PCG so they have a flexible base to modify and create elements for scenography as time goes on. I also made some sexy water, very sexy (Posting it on the group chat...had reactions).
+
+The VR controller was working very well on my meta quest, so I was confident the template was working alright, even with the stripping, but the file began having rendering issues, where the map kept corrupting. The map would crash, then simply would not open, unless I went back into the autosaves and loaded up an old version. I could not figure out the source, I believed it was a nanite issue as shaders kept crashing, but in the end it may have had more to do with how the VR template compiled shaders. Alex was working on a menu, and got pretty far in the work, but it crashed for I believe the 4th or 5th time, and we got fed up, so we decided to start anew, completely fresh to get rid of all potential issues we may have inherited along the way.
+
+## The Blank File
+
+So, I scrapped it, much to Alex's dismay, and started over. A completely BLANK file, no controller, no nothing, BLANK. Here's what we got done before Wednesday:
+
+- Importing the buildings
+- Materials
+- Tree of life import and rendering
+- Water
+- Basic scenography, grass and island look
+- 1st person controller
+- I for information text popup interactivity (!!)
+
+We have not tested it in VR or attempted anything, Alex is working on UI atm, and my task is to figure out the controller until next week.
