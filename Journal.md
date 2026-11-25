@@ -232,3 +232,9 @@ So, I scrapped it, much to Alex's dismay, and started over. A completely BLANK f
 - I for information text popup interactivity (!!)
 
 We have not tested it in VR or attempted anything, Alex is working on UI atm, and my task is to figure out the controller until next week.
+
+# Weekly Reflection - Nov 18
+
+
+# Weekly Reflection - Nov 25
+
