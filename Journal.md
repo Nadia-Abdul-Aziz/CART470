@@ -236,8 +236,29 @@ We have not tested it in VR or attempted anything, Alex is working on UI atm, an
 # Weekly Reflection - Nov 18
 
 The blank file is no longer blank, we have done a lot. All the goals were achieved before the meeting with Sabine, resulting in an environment that looks different from the initial prototype, but arguably better.
-Scenography:
-We have no guidelines on what they want this to look like, so I took my liberties, I imported the building and created a long platform suspended in water, 
+
+Scenography & Models:
+
+I made a SMALL landscape, tiny, I do not want to make it too big and increase lag, then raised all the sides to cover up the fact that there is nothing behind it, it works, and looks good. I placed a ground texture on it, and scattered some Quixel Megascan rocks to look like beachy mountains. The textures needed to be slightly adjusted, and the rocks were placed strategically to not remove from the gallery experience. I started placing some foliage, several types of grass, but I did not pay much mind to the cleanliness or polycount of it all, it is most definitely excessive, and is causing lag in the headset. We do not have any guidelines on what AbTeC's vision of the experience is like, so this environment is a placeholder, and from here on in, I will be optimizing it then working solely on systems, I do not want to beautify something that may be fundamentally changed. 
+
+I imported the gallery building using the kit, placing it in front of a mountanous region to obscure the back. I fixed the collisions again so the user could navigate properly, and slapped on the same plastic and glass texture I made many many weeks ago. Triangulation issues still present. I imported Skawenatti's Tree of Life, and once again slapped on the textures I previously made. Given the lack of vision, I took liberties, and I placed the tree on a long platform emerging from the gallery suspended in a bed of water. 
+
+Headset:
+
+I took out the Samsung Odyssey headset from the Clab from Elio (Thank you, we love you), and started testing. It works currently through SteamVR and OpenXR on Windows 10. Once I got through putting in all the functionality, it ran with nearly no issues, I did not have any crashes (Yet...) so we hope it stays that way. Looking around is very smooth, the point and click functionality that comes with the headset to move work ever since I actually mapped it (I didn't at first and was banging my head against the wall because it wouldn't work), but it has a significant offset I will need to fix, I may switch it to a more universal joystick solution. The lag is terrible...not unplayable...but disgusting. Optimization is a task for next week. There is also this...black square that frames the player when they turn around??? 
+
+Interactivity:
+
+I placed an I to interact plaque in front of the tree, I made the widget + blueprint, and it worked for a bit, but because the center of the object coming out of Blender was messed up, when the user approaches the plaque, the "interact" text appears away from the object. I disconnected all the blueprints, and am in the process of debugging, might go into Blender and fix it though. 
+
+No other interactivity in place at the moment, the to-do list includes:
+
+- Sound (I have the old blueprints and foley to just smack it in) and expand it into a robust system
+- Intro/Tutorial
+- VR walking issue fix
+- Shooting the Indian act
+
+On another note, THE VR VERSION HAS HANDS!!! HUMAN HANDS!!!
 
 # Weekly Reflection - Nov 25
 
