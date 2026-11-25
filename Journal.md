@@ -235,6 +235,43 @@ We have not tested it in VR or attempted anything, Alex is working on UI atm, an
 
 # Weekly Reflection - Nov 18
 
+The blank file is no longer blank, we have done a lot. All the goals were achieved before the meeting with Sabine, resulting in an environment that looks different from the initial prototype, but arguably better.
+Scenography:
+We have no guidelines on what they want this to look like, so I took my liberties, I imported the building and created a long platform suspended in water, 
 
 # Weekly Reflection - Nov 25
+
+See Weekly Reflection above this one (Nov 18, unsubmitted to Moodle in time but is here) to see details on what was achieved in the previous week.
+
+Despite the deadline approaching, I did not do a whole lot this week to prioritize my electroacoustics work and get it out of the way so I can focus on this once we have guidelines from AbTeC. 
+My goals for today, as we don't have much to tell Sabine on the Godot end either I believe, are to optimize the environment for VR and create a landing page. Then, once home and I have access to the headset today or tomorrow, before we meet or get answers from AbTeC, I can work on the controller, and integrate Alex's new widgets.  
+
+Optimization:
+
+- Enable Nanite
+- Single Layer Water
+- Geometry and Collisions
+- Aspect Ratio?
+
+The first thing I will be doing is replacing the foliage with Nanite compatible low-poly foliage to reduce the polycount and make it easily chunk renderable to the engine on startup, reducing the amount to render per tick. This is a whole thing because I am fairly certain this is what was causing our earlier corruptions, so probably gna be figured out tonight with a red bull at TAG. The water has been lagging on headset, so it really isn't worth keeping as the UE5 default water (Multi-layer, interactable), I will simply replace it with a plane with the Single Layer Water plugin enabled to have a texture and some ripples, call it a day. The geometry was really badly reconstructed, and I am not entirely sure why, we knew from the beginning that Unreal was triangulating meshes on import, and brought the issue up to AbTeC, they wanted to proceed anyway. That said, I need to find a solution, because it is impacting the frame rate on the headset because the renderer is not able to group them into bins properly. I showed the rest of my team what I talked about in the Sabine meeting, the whole lag when turning so you just see a black square around you. They also said it is probably an aspect ratio issue and I can overcompensate to go slightly bigger than the field of view to compensate for the square while I still have lag, red bull here I come tonight. 
+
+Landing page & Onboarding:
+
+- Welcome
+- Controls
+
+I want to make a loading screen, which includes the AbTeC logo and a welcome message, tbd. We have access to their logo files. When they spawn in the world, I want them to be in somewhat of a "tutorial" room. I want to have an overlay with diagrams that explain the controls of the experience, and how to use "I" for information to open the artist statements. 
+
+Controller:
+
+There is still no joystick movement, so I need to do that, still deciding between the default point and click that is built into the Samsung headset as opposed to using the universal joystick. 
+
+Widgets: 
+
+Alex created the artist overlay widget, so I will be adding that in to be functional. 
+
+For everything else, I am waiting for AbTeC, because we need to consolidate what they want. 
+
+
+
 
